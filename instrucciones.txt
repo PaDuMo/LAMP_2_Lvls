@@ -1,0 +1,22 @@
+ANTES de ejecutar los scripts, modifica 
+los valores necesarios a los que sean 
+correspondientes para su correcto funcionamiento.
+
+--------------------------------------------------|
+
+En el Backend (MySQL):
+chmod +x install_lamp_backend.sh
+sudo ./install_lamp_backend.sh
+--------------------------------------------------|
+En el Frontend (Apache):
+chmod +x install_lamp_frontend.sh
+sudo ./install_lamp_frontend.sh
+--------------------------------------------------|
+Desplegar app:
+chmod +x deploy.sh
+sudo ./deploy.sh
+--------------------------------------------------|
+Configurar HTTPS (opcional):
+chmod +x setup_letsencrypt_https.sh
+sudo ./setup_letsencrypt_https.sh
+--------------------------------------------------|
